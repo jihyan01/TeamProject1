@@ -33,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,25 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="graghform2.cs">
+    <Compile Include="graghform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="graghform2.Designer.cs">
-      <DependentUpon>graghform2.cs</DependentUpon>
+    <Compile Include="graghform.Designer.cs">
+      <DependentUpon>graghform.cs</DependentUpon>
     </Compile>
-    <Compile Include="loginform2.cs">
+    <Compile Include="loginform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="loginform2.Designer.cs">
-      <DependentUpon>loginform2.cs</DependentUpon>
+    <Compile Include="loginform.Designer.cs">
+      <DependentUpon>loginform.cs</DependentUpon>
     </Compile>
-    <Compile Include="mainform1.cs">
+    <Compile Include="mainform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mainform1.Designer.cs">
-      <DependentUpon>mainform1.cs</DependentUpon>
+    <Compile Include="mainform.Designer.cs">
+      <DependentUpon>mainform.cs</DependentUpon>
     </Compile>
-    <Compile Include="MySQL.cs" />
     <Compile Include="profileform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,20 +72,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="showfashionform3.cs">
+    <Compile Include="showfashionform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="showfashionform3.Designer.cs">
-      <DependentUpon>showfashionform3.cs</DependentUpon>
+    <Compile Include="showfashionform.Designer.cs">
+      <DependentUpon>showfashionform.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="graghform2.resx">
-      <DependentUpon>graghform2.cs</DependentUpon>
+    <EmbeddedResource Include="graghform.resx">
+      <DependentUpon>graghform.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="loginform2.resx">
-      <DependentUpon>loginform2.cs</DependentUpon>
+    <EmbeddedResource Include="loginform.resx">
+      <DependentUpon>loginform.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mainform1.resx">
-      <DependentUpon>mainform1.cs</DependentUpon>
+    <EmbeddedResource Include="mainform.resx">
+      <DependentUpon>mainform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="profileform.resx">
       <DependentUpon>profileform.cs</DependentUpon>
@@ -101,8 +99,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="showfashionform3.resx">
-      <DependentUpon>showfashionform3.cs</DependentUpon>
+    <EmbeddedResource Include="showfashionform.resx">
+      <DependentUpon>showfashionform.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace Teamproject1
 {
-    public partial class profileform : Form
+    public partial class showfashionform : Form
     {
-        public profileform()
+        public showfashionform()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void showfasionmainbutton_Click(object sender, EventArgs e)
         {
             this.Hide();
-
             mainform mainform1 = new mainform();
             mainform1.Show(); 
+
         }
     }
 }

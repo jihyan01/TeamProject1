@@ -16,7 +16,7 @@ namespace Teamproject1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new mainform1());
+            Application.Run(new mainform());
         }
     }
 }
